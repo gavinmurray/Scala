@@ -1,0 +1,71 @@
+2022.02.22 22:01:37 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Gav\Scala\helloworldscala\.metals\lsp.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.22 22:01:39 INFO  logging to file C:\Gav\Scala\helloworldscala\.metals\metals.log
+2022.02.22 22:01:39 INFO  Started: Metals version 0.11.1 in workspace 'C:\Gav\Scala\helloworldscala' for client Visual Studio Code 1.64.2.
+2022.02.22 22:01:39 INFO  Parse release: 1.8.0_181
+2022.02.22 22:01:42 INFO  time: initialize in 3.17s
+2022.02.22 22:01:43 WARN  Build server is not auto-connectable.
+Feb 22, 2022 10:02:05 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.02.22 22:02:40 WARN  no build target for: C:\Gav\Scala\helloworldscala\src\main\scala\Main.scala
+2022.02.22 22:02:45 INFO  no build target found for C:\Gav\Scala\helloworldscala\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.02.22 22:02:47 INFO  time: code lens generation in 6.89s
+Feb 22, 2022 10:06:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.02.22 22:11:26 WARN  no build target for: C:\Gav\Scala\helloworldscala\src\main\scala\Main.scala
+2022.02.22 22:18:21 INFO  
+2022.02.22 22:18:21 INFO  Template applied in C:\Gav\Scala\.\hello-world
+2022.02.22 22:18:21 INFO  
+2022.02.22 22:18:21 INFO  time: ran 'giter8.Giter8' in 3.32s
+2022.02.22 22:18:40 INFO  shutting down Metals
+2022.02.22 22:18:40 ERROR Unexpected error initializing server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.04.26 13:39:42 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Gav\Scala\helloworldscala\.metals\lsp.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.04.26 13:39:43 INFO  logging to file C:\Gav\Scala\helloworldscala\.metals\metals.log
+2022.04.26 13:39:43 INFO  Started: Metals version 0.11.2 in workspace 'C:\Gav\Scala\helloworldscala' for client Visual Studio Code 1.64.2.
+2022.04.26 13:39:43 INFO  Parse release: 1.8.0_181
+2022.04.26 13:39:46 INFO  time: initialize in 2.63s
+2022.04.26 13:39:46 INFO  Deleting old database format C:\Gav\Scala\helloworldscala\.metals\metals.h2.db
+2022.04.26 13:39:46 WARN  Build server is not auto-connectable.
+2022.04.26 13:39:47 WARN  no build target for: C:\Gav\Scala\helloworldscala\src\main\scala\Main.scala
+2022.04.26 13:39:49 INFO  no build target found for C:\Gav\Scala\helloworldscala\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.26 13:39:51 INFO  time: code lens generation in 4.17s
+2022.04.26 13:39:56 INFO  running 'C:\Program Files\Java\jdk1.8.0_181\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\email\AppData\Local\Temp\metals8667606281585808027\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.04.26 13:39:58 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 1.8.0_181)
+2022.04.26 13:40:02 INFO  [info] loading settings for project helloworldscala-build-build from metals.sbt ...
+2022.04.26 13:40:03 INFO  [info] loading project definition from C:\Gav\Scala\helloworldscala\project\project
+2022.04.26 13:40:10 INFO  [info] loading settings for project helloworldscala-build from metals.sbt ...
+2022.04.26 13:40:10 INFO  [info] loading project definition from C:\Gav\Scala\helloworldscala\project
+2022.04.26 13:40:13 INFO  [success] Generated .bloop\helloworldscala-build.json
+2022.04.26 13:40:13 INFO  [success] Total time: 3 s, completed 26-Apr-2022 13:40:13
+2022.04.26 13:40:14 INFO  [info] loading settings for project root from build.sbt ...
+2022.04.26 13:40:14 INFO  [info] set current project to helloworldscala (in build file:/C:/Gav/Scala/helloworldscala/)
+2022.04.26 13:40:22 INFO  [success] Generated .bloop\root-test.json
+2022.04.26 13:40:22 INFO  [success] Generated .bloop\root.json
+2022.04.26 13:40:22 INFO  [success] Total time: 7 s, completed 26-Apr-2022 13:40:22
+2022.04.26 13:40:22 INFO  time: ran 'sbt bloopInstall' in 26s
+2022.04.26 13:40:22 INFO  Attempting to connect to the build server...
+2022.04.26 13:40:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\helloworldscala\.metals\bsp.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.26 13:40:32 INFO  Attempting to connect to the build server...
+2022.04.26 13:40:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\helloworldscala\project\.metals\bsp.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.26 13:40:39 INFO  time: Connected to build server in 16s
+2022.04.26 13:40:39 INFO  Connected to Build server: Bloop v1.4.13
+2022.04.26 13:40:39 INFO  time: Imported build in 0.18s
+2022.04.26 13:40:43 INFO  time: indexed workspace in 4.31s
+2022.04.26 13:40:45 INFO  compiling root (1 scala source)
+2022.04.26 13:40:49 INFO  compiling root-test (1 scala source)
+2022.04.26 13:40:49 INFO  time: compiled root in 5.09s
+2022.04.26 13:40:49 INFO  time: compiled root-test in 0.64s
+2022.04.26 13:41:41 INFO  shutting down Metals
+2022.04.26 13:41:41 INFO  Shut down connection with build server.
+2022.04.26 13:41:41 INFO  Shut down connection with build server.

@@ -1,0 +1,281 @@
+2022.02.22 22:18:47 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Gav\Scala\hello-world\.metals\lsp.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.22 22:18:48 INFO  logging to file C:\Gav\Scala\hello-world\.metals\metals.log
+2022.02.22 22:18:48 INFO  Started: Metals version 0.11.1 in workspace 'C:\Gav\Scala\hello-world' for client Visual Studio Code 1.64.2.
+2022.02.22 22:18:48 INFO  Parse release: 1.8.0_181
+2022.02.22 22:18:50 INFO  time: initialize in 2.3s
+2022.02.22 22:18:51 WARN  Build server is not auto-connectable.
+Feb 22, 2022 10:18:53 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.02.22 22:19:08 INFO  running 'C:\Program Files\Java\jdk1.8.0_181\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\email\AppData\Local\Temp\metals1117578144436921336\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.02.22 22:19:10 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 1.8.0_181)
+2022.02.22 22:19:13 INFO  [info] loading settings for project hello-world-build-build from metals.sbt ...
+2022.02.22 22:19:13 INFO  [info] loading project definition from C:\Gav\Scala\hello-world\project\project
+2022.02.22 22:19:18 INFO  [info] loading settings for project hello-world-build from metals.sbt ...
+2022.02.22 22:19:18 INFO  [info] loading project definition from C:\Gav\Scala\hello-world\project
+2022.02.22 22:19:22 INFO  [success] Generated .bloop\hello-world-build.json
+2022.02.22 22:19:22 INFO  [success] Total time: 3 s, completed 22-Feb-2022 22:19:22
+2022.02.22 22:19:23 INFO  [info] loading settings for project hello-world from build.sbt ...
+2022.02.22 22:19:23 INFO  [info] set current project to hello-world (in build file:/C:/Gav/Scala/hello-world/)
+2022.02.22 22:19:25 INFO  [success] Generated .bloop\hello-world-test.json
+2022.02.22 22:19:25 INFO  [success] Generated .bloop\hello-world.json
+2022.02.22 22:19:25 INFO  [success] Total time: 1 s, completed 22-Feb-2022 22:19:25
+2022.02.22 22:19:25 INFO  time: ran 'sbt bloopInstall' in 17s
+2022.02.22 22:19:25 INFO  Attempting to connect to the build server...
+2022.02.22 22:19:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\bsp.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.02.22 22:19:40 INFO  Attempting to connect to the build server...
+2022.02.22 22:19:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\project\.metals\bsp.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.02.22 22:19:40 INFO  time: Connected to build server in 15s
+2022.02.22 22:19:40 INFO  Connected to Build server: Bloop v1.4.12
+2022.02.22 22:19:40 INFO  time: Imported build in 0.2s
+2022.02.22 22:19:45 INFO  time: indexed workspace in 5.06s
+2022.02.22 22:20:02 INFO  compiling hello-world (1 scala source)
+2022.02.22 22:20:14 INFO  time: compiled hello-world in 11s
+Feb 22, 2022 10:22:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 22, 2022 10:24:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Feb 22, 2022 10:24:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+2022.02.22 22:24:27 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.1' (since 4m 51.4s)
+2022.02.22 22:24:31 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.1' (since 4m 55.1s)
+2022.02.22 22:24:32 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-server.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+Feb 22, 2022 10:24:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.02.22 22:24:32 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-client.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.02.22 22:24:32 INFO  Starting debug proxy for [Main]
+2022.02.22 22:24:33 INFO  Trying to attach to remote debuggee VM 127.0.0.1:56987 .
+2022.02.22 22:24:33 INFO  Attaching to debuggee VM succeeded.
+2022.02.22 22:24:33 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.1' (since 4m 57.229s)
+2022.02.22 22:24:33 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.1' (since 4m 57.231s)
+2022.02.22 22:24:34 INFO  Canceling debug proxy for [Main]
+2022.02.22 22:24:33 INFO  Closing debug server tcp://0.0.0.0:56979
+2022.02.22 22:24:35 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-server.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.02.22 22:24:35 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-client.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.02.22 22:24:35 INFO  Starting debug proxy for [Main]
+2022.02.22 22:24:36 INFO  Trying to attach to remote debuggee VM 127.0.0.1:56996 .
+2022.02.22 22:24:36 INFO  Attaching to debuggee VM succeeded.
+2022.02.22 22:24:35 INFO  Canceling debug proxy for [Main]
+2022.02.22 22:24:36 INFO  Closing debug server tcp://0.0.0.0:56992
+2022.02.22 22:24:37 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-server.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.02.22 22:24:37 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-client.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.02.22 22:24:37 INFO  Starting debug proxy for [Main]
+2022.02.22 22:24:38 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57002 .
+2022.02.22 22:24:38 INFO  Attaching to debuggee VM succeeded.
+2022.02.22 22:24:37 INFO  Canceling debug proxy for [Main]
+2022.02.22 22:24:38 INFO  Closing debug server tcp://0.0.0.0:56999
+2022.02.22 22:24:40 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.1' (since 5m 4.466s)
+2022.02.22 22:24:43 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.1' (since 5m 6.874s)
+2022.02.22 22:24:44 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-server.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.02.22 22:24:44 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-client.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.02.22 22:24:45 INFO  Starting debug proxy for [Main]
+2022.02.22 22:24:45 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57017 .
+2022.02.22 22:24:45 INFO  Attaching to debuggee VM succeeded.
+2022.02.22 22:24:45 INFO  Canceling debug proxy for [Main]
+2022.02.22 22:24:45 INFO  Closing debug server tcp://0.0.0.0:57012
+2022.02.22 22:24:46 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.1' (since 5m 10.361s)
+2022.02.22 22:24:47 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-server.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.02.22 22:24:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-client.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.02.22 22:24:47 INFO  Starting debug proxy for [Main]
+2022.02.22 22:24:47 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57026 .
+2022.02.22 22:24:47 INFO  Attaching to debuggee VM succeeded.
+2022.02.22 22:24:47 INFO  Canceling debug proxy for [Main]
+2022.02.22 22:24:47 INFO  Closing debug server tcp://0.0.0.0:57023
+2022.02.22 22:24:50 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.1' (since 5m 14.524s)
+2022.02.22 22:24:50 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-server.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.02.22 22:24:50 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-client.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.02.22 22:24:50 INFO  Starting debug proxy for [Main]
+2022.02.22 22:24:50 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57037 .
+2022.02.22 22:24:50 INFO  Attaching to debuggee VM succeeded.
+2022.02.22 22:24:55 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-server.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.02.22 22:24:55 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-client.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.02.22 22:24:55 INFO  Starting debug proxy for [Main]
+2022.02.22 22:24:55 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57044 .
+2022.02.22 22:24:55 INFO  Attaching to debuggee VM succeeded.
+2022.02.22 22:25:00 ERROR [error response][evaluate]: Cannot evaluate because of ch.epfl.scala.debugadapter.internal.evaluator.ExpressionCompilationFailed: unclosed string literal.
+2022.02.22 22:25:24 INFO  compiling hello-world (1 scala source)
+2022.02.22 22:25:24 INFO  time: compiled hello-world in 0.22s
+2022.02.22 22:25:29 INFO  C:\Gav\Scala\hello-world\src\main\scala\Main.scala:2:9: stale bloop error: not found: value a
+  var g=a;
+        ^
+2022.02.22 22:25:29 INFO  C:\Gav\Scala\hello-world\src\main\scala\Main.scala:2:9: stale bloop error: not found: value a
+  var g=a;
+        ^
+2022.02.22 22:25:44 INFO  compiling hello-world (1 scala source)
+2022.02.22 22:25:44 INFO  time: compiled hello-world in 0.78s
+2022.02.22 22:25:50 INFO  Canceling debug proxy for [Main]
+2022.02.22 22:25:50 INFO  Closing debug server tcp://0.0.0.0:57032
+2022.02.22 22:25:50 ERROR Read data from io exception: java.net.SocketException: Socket closed
+2022.02.22 22:26:04 INFO  Canceling debug proxy for [Main]
+2022.02.22 22:26:04 INFO  Closing debug server tcp://0.0.0.0:57041
+2022.02.22 22:26:07 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.1' (since 6m 31.321s)
+2022.02.22 22:26:10 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.1' (since 6m 33.817s)
+2022.02.22 22:26:11 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-server.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.02.22 22:26:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-client.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.02.22 22:26:11 INFO  Starting debug proxy for [Main]
+2022.02.22 22:26:12 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57078 .
+2022.02.22 22:26:12 INFO  Attaching to debuggee VM succeeded.
+2022.02.22 22:26:12 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.1' (since 6m 35.941s)
+2022.02.22 22:26:11 INFO  Canceling debug proxy for [Main]
+2022.02.22 22:26:12 INFO  Closing debug server tcp://0.0.0.0:57075
+2022.02.22 22:26:14 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-server.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.02.22 22:26:14 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-client.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.02.22 22:26:14 INFO  Starting debug proxy for [Main]
+2022.02.22 22:26:14 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57088 .
+2022.02.22 22:26:14 INFO  Attaching to debuggee VM succeeded.
+2022.02.22 22:26:14 INFO  Canceling debug proxy for [Main]
+2022.02.22 22:26:14 INFO  Closing debug server tcp://0.0.0.0:57084
+2022.02.22 22:26:16 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-server.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.02.22 22:26:16 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-client.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.02.22 22:26:16 INFO  Starting debug proxy for [Main]
+2022.02.22 22:26:16 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57094 .
+2022.02.22 22:26:16 INFO  Attaching to debuggee VM succeeded.
+2022.02.22 22:26:16 INFO  Canceling debug proxy for [Main]
+2022.02.22 22:26:16 INFO  Closing debug server tcp://0.0.0.0:57091
+2022.02.22 22:26:26 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.1' (since 6m 50.417s)
+2022.02.22 22:26:30 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-server.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.02.22 22:26:30 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-client.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.02.22 22:26:31 INFO  Starting debug proxy for [Main]
+2022.02.22 22:26:31 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57106 .
+2022.02.22 22:26:31 INFO  Attaching to debuggee VM succeeded.
+2022.02.22 22:27:06 INFO  Canceling debug proxy for [Main]
+2022.02.22 22:27:06 INFO  Closing debug server tcp://0.0.0.0:57103
+Feb 22, 2022 10:37:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 192
+2022.02.22 22:37:38 INFO  compiling hello-world (1 scala source)
+2022.02.22 22:37:38 INFO  time: compiled hello-world in 0.57s
+2022.02.22 22:37:56 INFO  compiling hello-world (1 scala source)
+2022.02.22 22:37:57 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.02.22 22:37:57 INFO  time: compiled hello-world in 1.6s
+2022.02.22 22:38:17 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.1' (since 18m 40.818s)
+2022.02.22 22:38:21 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-server.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.02.22 22:38:21 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-client.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.02.22 22:38:21 INFO  Starting debug proxy for [Geeks]
+2022.02.22 22:38:21 INFO  Trying to attach to remote debuggee VM 127.0.0.1:50388 .
+2022.02.22 22:38:21 INFO  Attaching to debuggee VM succeeded.
+2022.02.22 22:38:21 INFO  Canceling debug proxy for [Geeks]
+2022.02.22 22:38:21 INFO  Closing debug server tcp://0.0.0.0:50385
+2022.02.22 22:57:15 INFO  compiling hello-world (1 scala source)
+2022.02.22 22:57:15 INFO  time: compiled hello-world in 0.77s
+2022.02.22 22:57:23 INFO  compiling hello-world (1 scala source)
+2022.02.22 22:57:24 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.02.22 22:57:24 INFO  time: compiled hello-world in 1.14s
+2022.02.22 22:57:37 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.1' (since 38m 1.188s)
+2022.02.22 22:57:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-server.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.02.22 22:57:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-client.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.02.22 22:57:41 INFO  Starting debug proxy for [forloopDemo]
+2022.02.22 22:57:42 INFO  Trying to attach to remote debuggee VM 127.0.0.1:63271 .
+2022.02.22 22:57:42 INFO  Attaching to debuggee VM succeeded.
+2022.02.22 22:57:42 INFO  Canceling debug proxy for [forloopDemo]
+2022.02.22 22:57:42 INFO  Closing debug server tcp://0.0.0.0:63268
+2022.02.22 22:59:03 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.1' (since 39m 27.065s)
+2022.02.22 22:59:03 INFO  compiling hello-world (1 scala source)
+2022.02.22 22:59:03 INFO  compiling hello-world (1 scala source)
+2022.02.22 22:59:03 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.02.22 22:59:03 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.02.22 22:59:03 INFO  time: compiled hello-world in 0.91s
+2022.02.22 22:59:08 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-server.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.02.22 22:59:08 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-client.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.02.22 22:59:08 INFO  Starting debug proxy for [forloopDemo]
+2022.02.22 22:59:08 INFO  Trying to attach to remote debuggee VM 127.0.0.1:63302 .
+2022.02.22 22:59:08 INFO  Attaching to debuggee VM succeeded.
+2022.02.22 22:59:08 INFO  Canceling debug proxy for [forloopDemo]
+2022.02.22 22:59:08 INFO  Closing debug server tcp://0.0.0.0:63299
+2022.02.22 22:59:18 INFO  compiling hello-world (1 scala source)
+2022.02.22 22:59:18 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.02.22 22:59:18 INFO  time: compiled hello-world in 0.84s
+2022.04.26 13:41:52 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Gav\Scala\hello-world\.metals\lsp.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.04.26 13:41:53 INFO  logging to file C:\Gav\Scala\hello-world\.metals\metals.log
+2022.04.26 13:41:53 INFO  Started: Metals version 0.11.2 in workspace 'C:\Gav\Scala\hello-world' for client Visual Studio Code 1.64.2.
+2022.04.26 13:41:53 INFO  Parse release: 1.8.0_181
+2022.04.26 13:41:56 INFO  time: initialize in 2.6s
+2022.04.26 13:41:56 INFO  Deleting old database format C:\Gav\Scala\hello-world\.metals\metals.h2.db
+2022.04.26 13:42:01 INFO  Attempting to connect to the build server...
+2022.04.26 13:42:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\bsp.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.26 13:42:04 INFO  no build target found for C:\Gav\Scala\hello-world\.metals\readonly\dependencies\scala-library-2.13.3-sources.jar\scala\App.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.26 13:42:06 INFO  Attempting to connect to the build server...
+2022.04.26 13:42:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\project\.metals\bsp.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.26 13:42:06 INFO  time: Connected to build server in 5.54s
+2022.04.26 13:42:06 INFO  Connected to Build server: Bloop v1.4.13
+2022.04.26 13:42:06 INFO  time: Imported build in 0.13s
+2022.04.26 13:42:08 INFO  no build target found for C:\Gav\Scala\hello-world\src\main\scala\forloop.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.26 13:42:08 INFO  time: code lens generation in 6.93s
+2022.04.26 13:42:09 INFO  running 'C:\Program Files\Java\jdk1.8.0_181\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\email\AppData\Local\Temp\metals9055687278144330495\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.04.26 13:42:09 INFO  no build target found for C:\Gav\Scala\hello-world\.metals\readonly\dependencies\scala-library-2.13.3-sources.jar\scala\App.scala. Using presentation compiler with project's scala-library version: 2.13.3
+2022.04.26 13:42:13 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 1.8.0_181)
+2022.04.26 13:42:16 INFO  time: code lens generation in 15s
+2022.04.26 13:42:16 INFO  time: code lens generation in 7.08s
+2022.04.26 13:42:17 INFO  time: indexed workspace in 10s
+2022.04.26 13:42:17 INFO  compiling hello-world (3 scala sources)
+2022.04.26 13:42:19 INFO  [info] loading settings for project hello-world-build-build from metals.sbt ...
+2022.04.26 13:42:20 INFO  [info] loading project definition from C:\Gav\Scala\hello-world\project\project
+2022.04.26 13:42:26 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.04.26 13:42:26 INFO  time: compiled hello-world in 8.68s
+2022.04.26 13:42:27 INFO  [info] loading settings for project hello-world-build from metals.sbt ...
+2022.04.26 13:42:27 INFO  [info] loading project definition from C:\Gav\Scala\hello-world\project
+2022.04.26 13:42:30 INFO  [success] Generated .bloop\hello-world-build.json
+2022.04.26 13:42:30 INFO  [success] Total time: 3 s, completed 26-Apr-2022 13:42:30
+2022.04.26 13:42:32 INFO  [info] loading settings for project hello-world from build.sbt ...
+2022.04.26 13:42:32 INFO  [info] set current project to hello-world (in build file:/C:/Gav/Scala/hello-world/)
+2022.04.26 13:42:32 INFO  [success] Generated .bloop\hello-world-test.json
+2022.04.26 13:42:32 INFO  [success] Generated .bloop\hello-world.json
+2022.04.26 13:42:32 INFO  [success] Total time: 0 s, completed 26-Apr-2022 13:42:32
+2022.04.26 13:42:33 INFO  time: ran 'sbt bloopInstall' in 23s
+2022.04.26 13:42:33 INFO  Disconnecting from Bloop session...
+2022.04.26 13:42:33 INFO  Shut down connection with build server.
+2022.04.26 13:42:33 INFO  Shut down connection with build server.
+2022.04.26 13:42:33 INFO  Attempting to connect to the build server...
+2022.04.26 13:42:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\bsp.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.26 13:42:33 INFO  Attempting to connect to the build server...
+2022.04.26 13:42:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\project\.metals\bsp.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.26 13:42:33 INFO  time: Connected to build server in 0.17s
+2022.04.26 13:42:33 INFO  Connected to Build server: Bloop v1.4.13
+2022.04.26 13:42:34 INFO  time: indexed workspace in 1s
+2022.04.26 13:46:43 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.2' (since 4m 10.327s)
+2022.04.26 13:47:25 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-server.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.26 13:47:25 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.2' (since 4m 52.756s)
+2022.04.26 13:47:25 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-client.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.26 13:47:25 INFO  Starting debug proxy for [forloopDemo]
+2022.04.26 13:47:25 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57216 .
+2022.04.26 13:47:25 INFO  Attaching to debuggee VM succeeded.
+2022.04.26 13:47:27 INFO  Canceling debug proxy for [forloopDemo]
+2022.04.26 13:47:27 INFO  Closing debug server tcp://0.0.0.0:57209
+Apr 26, 2022 1:47:27 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:138)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:63)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:118)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 21 more
+
+2022.04.26 13:47:30 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-server.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.26 13:47:30 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Gav\Scala\hello-world\.metals\dap-client.trace.json or C:\Users\email\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.26 13:47:30 INFO  Starting debug proxy for [forloopDemo]
+2022.04.26 13:47:30 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57223 .
+2022.04.26 13:47:30 INFO  Attaching to debuggee VM succeeded.
+2022.04.26 13:47:30 INFO  Canceling debug proxy for [forloopDemo]
+2022.04.26 13:47:30 INFO  Closing debug server tcp://0.0.0.0:57220
